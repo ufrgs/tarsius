@@ -88,7 +88,7 @@ Ao final dos passos descritos acima a aplicação estará acessível em `http://
 Próximas etapas (documentação em criação) 
 
 * Ajustar valores das configurações padrões
-* Geração de template
+* [Geração de template](https://github.com/ufrgs/tarsius/wiki/Geração-de-template)
 * Criação de uma trabalho
 * Definir exportação dos resultados
   
