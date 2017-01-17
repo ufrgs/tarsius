@@ -90,16 +90,13 @@ class Mask
      * índice de chave 'match' o qual possui a expressão regular que será
      * usada como filtro para os ID's das regiões. Somente ID's que passarem
      * na comparação com 'match' serão incluídos na saída. O resultado das
-     * diversas regiões que tiverem match serão concatenados, opcionalmente
-     * é informar uma função de ordenação usando o índice 'sort'. Abaixo um
+     * diversas regiões que tiverem match serão concatenados. Abaixo um
      * exemplo de formato de arquivo válido:
      * [
      *   'ausente' => 'eAusente', // Serve somente como alias
      *   'respostas' => [         // Concatena todos os resultadas de regiões com
      *    'match' => '/^e-/',     // ID que passe no condição definida em match
-     *     'sort' => function($a,$b){
-     *       return $a > $b;          
-     *     },
+     *    'sort' => 'ASC',        // ASC(default) ou DESC. (campo opcional)
      *   ],
      * ];
      * O formato acima terá como saída duas linhas (ausente e respostas). A primeira

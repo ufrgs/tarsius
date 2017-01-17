@@ -395,8 +395,14 @@ class Form
           # @todo permitir uso de uma função que manipule a lista de
           # valores em $match
 
-          if (isset($value['sort']) && $value['sort']) {
-            usort($matchs,$value['sort']);
+          if (isset($value['sort']) && $value['sort'] == 'DESC') {
+            usort($matchs, function ($a, $b) {
+              return $a < $b;
+            });
+          } else {
+            usort($matchs, function ($a, $b) {
+              return $a > $b;
+            });
           }
 
           $output[$key] = '';
