@@ -3,7 +3,7 @@
 ## Sobre
 Processamento de folhas óticas de respostas. 
 
-Realiza a interpretação das marcas e caracteres de uma imagem a partir das informações contidas em um template(arquivo [JSON](http://www.json.org/)), o qual especifica a posição, o tipo e saída esperada para cada região da imagem.
+Realiza a interpretação das marcas e caracteres de uma imagem a partir das informações contidas em um template(arquivo [JSON](http://www.json.org/)), o qual especifica a posição, o tipo e a saída esperada para cada região da imagem.
 
 #### Funcionalidades
 
@@ -87,12 +87,12 @@ Ao final dos passos descritos acima a aplicação estará acessível em `http://
 
 Próximas etapas (documentação em criação) 
 
-* Ajustar valores das configurações padrões
+* Ajuste das configurações padrão
 * [Geração de template](https://github.com/ufrgs/tarsius/wiki/Geração-de-template)
-* Criação de uma trabalho
+* Criação de configuração de um trabalho
 * Definir exportação dos resultados
   
-Para mais informações, guias e tutoriais sobre o projeto acesse a [Wiki](https://github.com/ufrgs/tarsius/wiki/) do repositório.
+Para mais informações acesse a [Wiki](https://github.com/ufrgs/tarsius/wiki/) do repositório.
 
 
 
