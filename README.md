@@ -89,7 +89,7 @@ Próximas etapas (documentação em criação)
 
 * Ajuste das configurações padrão
 * [Geração de template](https://github.com/ufrgs/tarsius/wiki/Geração-de-template)
-* Criação de configuração de um trabalho
+* Criação e configuração de um trabalho
 * Definir exportação dos resultados
   
 Para mais informações acesse a [Wiki](https://github.com/ufrgs/tarsius/wiki/) do repositório.
