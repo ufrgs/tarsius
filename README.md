@@ -31,8 +31,6 @@ Realiza a interpretação das marcas e caracteres de uma imagem a partir das inf
 * Servidor Web (para uso da interface), recomenda-se [Apache Server](https://httpd.apache.org/)
 * Banco de dados relacional, compatíveis [SQLite](https://sqlite.org/), [MySQL](https://www.mysql.com/), [MariaDB](https://mariadb.org/), [PostgreSQL](https://www.postgresql.org/), SQL Server, Oracle
 
-
-
 ## Instalação
 
 Baixe o repositório em uma pasta acessível pelo seu Servidor Web.
@@ -87,7 +85,6 @@ Ao final dos passos descritos acima a aplicação estará acessível em `http://
 
 Próximas etapas (documentação em criação) 
 
-* Ajuste das configurações padrão
 * [Geração de template](https://github.com/ufrgs/tarsius/wiki/Geração-de-template)
 * Criação e configuração de um trabalho
 * Definir exportação dos resultados
