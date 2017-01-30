@@ -86,7 +86,7 @@ Ao final dos passos descritos acima a aplicação estará acessível em `http://
 Próximas etapas (documentação em criação) 
 
 * [Geração de template](https://github.com/ufrgs/tarsius/wiki/Geração-de-template)
-* Criação e configuração de um trabalho
+* [Criação e configuração de um trabalho](https://github.com/ufrgs/tarsius/wiki/Cria%C3%A7%C3%A3o-e-configura%C3%A7%C3%A3o-de-um-trabalho)
 * Definir exportação dos resultados
   
 Para mais informações acesse a [Wiki](https://github.com/ufrgs/tarsius/wiki/) do repositório.
